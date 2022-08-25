@@ -1,8 +1,8 @@
 {
-  "name": "my-blog",
+  "name": "gatsby-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "my-blog",
+  "description": "gatsby-blog",
   "author": "simao234430",
   "keywords": [
     "gatsby"
@@ -16,22 +16,43 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.1.3",
+    "@mdx-js/react": "^2.1.2",
+    "@nivo/core": "0.78.0",
+    "@nivo/line": "0.78.0",
+    "antd": "^4.22.7",
     "gatsby": "^4.21.1",
     "gatsby-plugin-image": "^2.21.0",
     "gatsby-plugin-manifest": "^4.21.0",
-    "gatsby-plugin-mdx": "^4.0.0",
-    "gatsby-plugin-sharp": "^4.21.0",
+    "gatsby-plugin-mdx": "next",
+    "gatsby-plugin-sharp": "^4.20.0",
     "gatsby-plugin-sitemap": "^5.21.0",
+    "gatsby-remark-autolink-headers": "^5.21.0",
+    "gatsby-remark-copy-linked-files": "^5.21.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^6.20.0",
+    "gatsby-remark-katex": "^6.21.0",
+    "gatsby-remark-prismjs": "^6.21.0",
+    "gatsby-remark-responsive-iframe": "^5.21.0",
+    "gatsby-remark-smartypants": "^5.21.0",
     "gatsby-source-filesystem": "^4.21.1",
+    "gatsby-transformer-json": "^4.21.0",
+    "gatsby-transformer-remark": "^5.21.0",
     "gatsby-transformer-sharp": "^4.21.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "katex": "^0.13.3",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "6.1.0",
+    "reading-time": "^1.5.0",
+    "remark-gfm": "^1",
+    "remark-unwrap-images": "^2",
+    "unist-util-visit": "^2"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "@types/react-helmet": "6.1.2",
     "typescript": "^4.7.4"
   }
 }
