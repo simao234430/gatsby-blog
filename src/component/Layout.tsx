@@ -13,7 +13,7 @@ export function RootLayout({ children }: React.PropsWithChildren<{}>) {
   return (
     <StaticQuery
       query={graphql`
-        query SiteTitleQuery {
+        query SiteTitleQuery_temp {
           site {
             siteMetadata {
               title
